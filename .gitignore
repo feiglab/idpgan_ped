@@ -1,0 +1,11 @@
+data/*
+!data/input.template.json
+idpgan
+ensembles
+devtools
+notebooks
+run
+scripts/torsion_potential/*/
+scripts/test
+exp_*/
+__pycache__/
