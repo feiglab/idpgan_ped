@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import argparse
 import shutil
@@ -11,6 +12,7 @@ import mdtraj
 import torch
 from Bio.PDB import PDBParser
 from Bio.PDB.PDBIO import PDBIO
+sys.append(".")
 from idpgan_ped import cg_optimization
 try:
     from idpgan_ped import aa_optimization

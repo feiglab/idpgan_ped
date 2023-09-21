@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+"""
+Patched version of the 'convert_cg2all.py' script from the cg2all repository:
+https://github.com/huhlim/cg2all. This patched script allows to process DCD
+trajectory files with the standard mdtraj version.
+"""
+
 import os
 import sys
 import json
