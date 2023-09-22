@@ -1,0 +1,9 @@
+{
+
+    "data": {
+        "data_dp": "./data",
+        "idpgan_data_dp": "./data",
+        "ensembles_dp": "./ensembles"
+    }
+
+}
