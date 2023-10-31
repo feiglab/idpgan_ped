@@ -12,7 +12,7 @@ import mdtraj
 import torch
 from Bio.PDB import PDBParser
 from Bio.PDB.PDBIO import PDBIO
-sys.append(".")
+sys.path.append(".")
 from idpgan_ped import cg_optimization
 try:
     from idpgan_ped import aa_optimization
