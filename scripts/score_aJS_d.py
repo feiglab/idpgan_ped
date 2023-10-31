@@ -118,7 +118,7 @@ def calc_dmap(xyz: np.array,
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
-    description='Score the aKLD_d of two structural ensembles.')
+    description='Score the aJS_d (or aKLD_d) of two structural ensembles.')
     parser.add_argument('-r', '--ref_dp', type=str, required=True,
         help='Directory with the PDB files for the reference ensemble.')
     parser.add_argument('-t', '--hat_dp', type=str, nargs='+', required=True,
